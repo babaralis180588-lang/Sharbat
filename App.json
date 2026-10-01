@@ -1,0 +1,13 @@
+{
+  "name": "Ali Cyber MD Bot",
+  "description": "WhatsApp automation bot with Admin Panel",
+  "repository": "https://github.com/yourusername/Ali_Mini_Bot2",
+  "keywords": ["whatsapp", "bot", "baileys", "node"],
+  "env": {
+    "OWNER_NUMBER": { "description": "Your WhatsApp number with country code, no +", "value": "923011437623" },
+    "ADMIN_PANEL_PASSWORD": { "description": "Password for the /admin dashboard", "value": "Ali Cyber 923011437623" },
+    "OPENAI_API_KEY": { "description": "Optional — for .ai command", "required": false },
+    "GIPHY_API_KEY": { "description": "Optional", "required": false }
+  },
+  "formation": { "web": { "quantity": 1, "size": "eco" } },
+  "buildpacks": [{ "url": "heroku/nodejs" }]
